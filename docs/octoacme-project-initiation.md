@@ -25,6 +25,13 @@ Whenever a new project idea or feature proposal is ready to be explored.
 - Objective / Goal (SMART):
 - Success metrics:
 - Primary stakeholders:
+  - Project Manager:
+  - Product Manager:
+  - UX Designer:
+  - DevOps Engineer:
+  - Business Analyst:
+  - Support Lead:
+  - Quality Lead:
 - Suggested timeline / milestones:
 - Quick risks & dependencies:
 - Proposed team / roles:
@@ -32,6 +39,11 @@ Whenever a new project idea or feature proposal is ready to be explored.
 ## Initiation Checklist
 - [ ] One-pager completed and reviewed by Product Lead
 - [ ] Sponsor / Stakeholder alignment (email or meeting)
+- [ ] UX Designer identified and included in stakeholder list (if applicable)
+- [ ] DevOps Engineer consulted on infrastructure needs or constraints
+- [ ] Business Analyst assigned to lead discovery and requirements gathering
+- [ ] Support Lead notified and included in communication plan
+- [ ] Quality Lead identified and initial QA approach discussed
 - [ ] Decision: Approve to move into planning?
 - [ ] Create repo or project board skeleton
 - [ ] Add initial artifacts to repo (docs/ or .copilot/)

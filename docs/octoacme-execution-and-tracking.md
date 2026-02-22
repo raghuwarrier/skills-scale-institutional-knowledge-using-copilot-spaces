@@ -30,11 +30,21 @@ Guidance for managing day-to-day execution and tracking progress toward project 
 
 ## Blocker Escalation
 - Level 1: Team-level triage in daily standup
+  - Developers, Quality Lead, and UX Designer resolve within the team where possible
 - Level 2: PM escalates to Product Lead and dependent teams
+  - DevOps Engineer consulted for infrastructure/deployment blockers
+  - Business Analyst consulted for requirement ambiguity blockers
 - Level 3: Sponsor-level escalation for business-impacting issues
+  - Support Lead notified for customer-facing issues
+  - Quality Lead provides severity assessment for quality-related escalations
 
 ## Execution Checklist
 - [ ] Branching and PR conventions documented in repo
 - [ ] CI configured for tests and lint
 - [ ] Regular demos scheduled
 - [ ] Risk register updated weekly
+- [ ] Quality Lead signoff obtained before release candidate is declared
+- [ ] DevOps Engineer confirms release readiness (pipeline, infra, rollback plan)
+- [ ] UX feedback loop in place: design review completed before implementation and post-release usability feedback collected
+- [ ] Business Analyst has validated backlog items against requirements before sprint start
+- [ ] Support Lead briefed on upcoming changes before each release
