@@ -19,9 +19,13 @@ Standardize how OctoAcme releases features to production to reduce risk and impr
 - [ ] Deployment window scheduled (if needed)
 - [ ] Backup or snapshot (if applicable)
 - [ ] Deploy to staging and run smoke tests
+- [ ] DevOps Engineer confirms pipeline, infrastructure, and rollback plan are ready
+- [ ] Quality Lead has completed release readiness signoff
 - [ ] Deploy to production (automated pipeline preferred)
 - [ ] Run post-deploy verifications
 - [ ] Announce release to stakeholders and support
+- [ ] Support Lead notified and briefed on changes; post-deployment monitoring period begins
+- [ ] Support Lead completes post-deployment review within agreed timeframe (e.g., 48 hours) and reports findings to PM
 
 ## Rollback & Incident Playbook
 - If a deployment fails or causes a critical issue:

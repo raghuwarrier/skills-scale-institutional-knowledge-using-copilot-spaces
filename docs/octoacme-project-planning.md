@@ -33,6 +33,8 @@ Turn an approved initiative into an actionable plan and backlog for delivery.
 ## Risk & Dependency Management
 - Capture in Risk Register:
   - ID, Description, Impact, Probability, Owner, Mitigation
+  - Assign quality-related risks to Quality Lead (e.g., test coverage gaps, regression risk)
+  - Assign infrastructure/deployment risks to DevOps Engineer (e.g., environment availability, pipeline readiness)
 - Mark cross-team dependencies in the project board and escalate during weekly syncs
 
 ## Planning Checklist
@@ -40,4 +42,8 @@ Turn an approved initiative into an actionable plan and backlog for delivery.
 - [ ] Backlog prioritized and estimated
 - [ ] Release timeline and milestones agreed
 - [ ] Definition of Done documented
-- [ ] Initial test plan / QA approach drafted
+- [ ] Initial test plan / QA approach drafted (owned by Quality Lead)
+- [ ] Quality Lead included in sprint planning and backlog review
+- [ ] DevOps Engineer consulted on deployment and infrastructure requirements
+- [ ] UX Designer has provided designs or wireframes for planned features
+- [ ] Business Analyst has documented and validated requirements with stakeholders
